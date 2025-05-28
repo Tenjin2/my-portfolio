@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    background-color: rgba(218,218,218,255);
+}
+
+.nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+}
+.navs{
+    margin-right: 30px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.navs:hover{
+    opacity: 0.8;
+}
+#icon{
+    height: 50px;
+    padding: 5px;
+    margin-left: 10px;
+    background-color: black;
+}
+#mainwall{
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.contain{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    background-color: transparent;
+}
+.hey{
+    font-size: 80pt;
+    font-family: "Tangerine", cursive;
+    font-weight: 900;
+    background-color: transparent;
+}
+.name{
+    font-size: 30pt;
+    margin-left: 80px;
+    font-family: "Mountains of Christmas", serif;
+  font-weight: 600;
+  background-color: transparent;
+}
+.desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(218,218,218,255);
+}
+#me{
+    overflow: hidden;
+    object-fit:cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+.d1{
+    margin-top: 20px;
+    font-size: 30pt;
+    font-family: serif;
+    color: rgba(66,66,66,255);
+}
+.d2{
+    margin-top: 30px;
+    padding: 20px;
+    width: 750px;
+    font-size: 15pt;
+    font-family: sans-serif;
+    margin-bottom: 100px;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.skillset{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+.card{
+    margin: 5px;
+    background-color: rgba(215,218,218,255);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15pt;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 150px;
+    border-radius: 5%;
+    text-align: center;
+    align-items: center;
+    transform: boxshadow 0.3 ease;
+    box-shadow: 0px 2px 5px rgb(0, 0, 0,0.1);
+}
+.card:hover{
+    box-shadow: 0px 10px 20px rgb(0, 0, 0,0.3);
+}
+.projects{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projectlist{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.cards{
+    padding: 20px;
+    border-radius: 5%;
+    width: 300px;
+    height: 250px;
+    scale: 0px;
+    transition: transform 0.3s ease;
+}
+.cards:hover{
+    transform: scale(1.1);
+}
+#p1{
+    width: 275px;
+}
+#p2{
+    width: 275px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#d3{
+    color: rgba(66,66,66,255);
+    font-size: 15pt;
+    margin-top: 60px;
+    font-family: sans-serif;
+}
+#d4{
+    color: rgba(218,218,218,255);
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10%;
+    background-color: rgba(16,16,16,255);
+    margin-bottom: 120px;
+    font-family: serif;
+    font-size: 13pt;
+    border: none;
+    margin-top: 30px;
+}
+#d4:hover{
+    opacity: 80%;
+}
+.footer{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    opacity: 80%;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+.a1{
+    text-decoration: none;
+    background-color: transparent;
+    color: rgba(218,218,218,255);
+    font-size: 13pt;
+    margin-top: 20px;
+}
+#id2{
+    margin-left: 60px;
+}
+.a1:hover{
+    color: white;
+}
+.li{
+    margin-top: 30px;
+    background-color: transparent;
+    color: white;
+    opacity: 0.8;
+    font-size: 11pt;
+
+}
